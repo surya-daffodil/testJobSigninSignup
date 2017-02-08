@@ -1,0 +1,421 @@
+.login-page {
+	&::after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+	.lt {
+		min-height: 100vh;
+		float: left;
+		background: url(../images/login1.png) scroll no-repeat bottom center;
+		background-size: cover;
+		width: 50%;
+		box-sizing: border-box;
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {}
+		@media #{$media-ipadland} {}
+		@media #{$media-ipadport} {}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {
+			float: none;
+			width: 100%;
+			min-height: 1px;
+			height: auto !important;
+			text-align: center;
+			padding: 50px 0 30px 0;
+		}
+		.contin {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			padding: 20px 90px;
+			width: 100%;
+			box-sizing: border-box;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {
+				padding: 20px 20px;
+			}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				top: auto;
+				transform: translateY(0);
+				padding: 0px 30px;
+			}
+
+
+.logo {
+	img {
+		
+@media #{$media-newmax} {}
+                @media #{$media-small-desk} {}
+                @media #{$media-ipadland} {}
+                @media #{$media-ipadport} {
+                   
+                }
+                @media #{$media-mid-phone} {}
+                @media #{$media-small-phone} {
+                   margin: 0 auto;
+                }
+	}
+}
+			h2 {
+				color: #ffffff;
+				font-size: 50px;
+				padding: 40px 0 20px 0;
+				line-height: 60px;
+				font-family: $Graphik-lgt;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {	font-size: 30px;
+					line-height: 38px;}
+				@media #{$media-ipadport} {
+					font-size: 30px;
+					line-height: 38px;
+				}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					font-size: 24px;
+					line-height: 30px;
+					padding: 20px 0 10px 0;
+				}
+			}
+			.btns {
+				border: 2px solid #ffffff;
+				background: transparent;
+			}
+		}
+	}
+	.rt {
+		min-height: 100vh;
+		float: left;
+		width: 50%;
+		background: #ffffff;
+		position: relative;
+		padding: 20px 10px;
+		box-sizing: border-box;
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {}
+		@media #{$media-ipadland} {}
+		@media #{$media-ipadport} {}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {
+			float: none;
+			width: 100%;
+			min-height: 1px;
+			height: auto !important;
+		}
+		.contin {
+			position: relative;
+			padding: 120px 90px;
+			width: 100%;
+			box-sizing: border-box;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {
+				padding: 120px 20px;
+			}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				padding: 30px 0px 140px;
+			}
+		}
+		.topt {
+			position: absolute;
+			top: 30px;
+			right: 25px;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				top: auto;
+				bottom: 30px;
+				right: auto;
+				left: 50%;
+				width: 240px;
+				transform: translateX(-50%);
+			}
+			.selectBox-dropdown {
+				float: none;
+				margin: 0;
+			}
+			h6 {
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0 15px 0 0;
+			}
+			.form-group {
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0;
+			}
+		}
+		.bott {
+			position: absolute;
+			bottom: 40px;
+			left: 0;
+			width: 100%;
+			padding: 0 20px;
+			box-sizing: border-box;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				height: 90px;
+			}
+			h6 {
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {text-align: center;
+					padding: 0 0 20px 0;}
+				@media #{$media-ipadland} {
+					text-align: center;
+					padding: 0 0 20px 0;
+				}
+				@media #{$media-ipadport} {
+					text-align: center;
+					padding: 0 0 20px 0;
+				}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					position: absolute;
+					bottom: -40px;
+					left: 0;
+					width: 100%;
+					text-align: center;
+					font-size: 12px;
+				}
+			}
+			ul {
+				float: right;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {	float: none;
+					text-align: center;}
+				@media #{$media-ipadland} {
+					float: none;
+					text-align: center;
+				}
+				@media #{$media-ipadport} {
+					float: none;
+					text-align: center;
+				}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					float: none;
+					text-align: center;
+				}
+				li {
+					float: left;
+					padding: 0 10px;
+					position: relative;
+					@media #{$media-newmax} {}
+					@media #{$media-small-desk} {	float: none;
+						display: inline-block;
+						padding: 0 5px;}
+					@media #{$media-ipadland} {
+						float: none;
+						display: inline-block;
+						padding: 0 5px;
+					}
+					@media #{$media-ipadport} {
+						float: none;
+						display: inline-block;
+						padding: 0 5px;
+					}
+					@media #{$media-mid-phone} {}
+					@media #{$media-small-phone} {
+						float: none;
+						display: inline-block;
+						padding: 0 5px;
+					}
+					&::after {
+						content: "";
+						height: 14px;
+						width: 1px;
+						background: $grey2;
+						position: absolute;
+						right: 0;
+						top: 2px;
+					}
+					a {
+						color: $dgrey;
+						font-size: 14px;
+						@media #{$media-newmax} {}
+						@media #{$media-small-desk} {}
+						@media #{$media-ipadland} {}
+						@media #{$media-ipadport} {}
+						@media #{$media-mid-phone} {}
+						@media #{$media-small-phone} {
+							font-size: 11px;
+						}
+					}
+					&.last {
+						&::after {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+		.contw {
+			max-width: 380px;
+			margin: 0 auto;
+			h4 {
+				font-size: 26px;
+				padding: 0 0 40px 0;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					text-align: center;
+					font-size: 20px;
+					padding: 0 0 20px 0;
+				}
+			}
+			.link {
+				color: $dgrey;
+			}
+			input[type=submit] {
+				height: 50px;
+				font-size: 18px;
+				display: block;
+				width: 100%;
+				color: #ffffff;
+				background: $dblue;
+				border: 0;
+				text-align: center;
+				border-radius: 5px;
+				font-family: $Graphik-med;
+			}
+			.captcha {
+				display: block;
+				margin: 35px 0;
+			}
+			h6 {
+				font-size: 14px;
+				line-height: 24px;
+			}
+			label {
+				font-family: $Graphik-med;
+				display: block;
+				padding: 5px 0 10px 0;
+				font-size: 16px;
+			}
+			.selectBox-dropdown {
+				float: left;
+				margin: 0 15px 0 0;
+				min-width: 100px;
+				height: 34px;
+			}
+			.selectBox-dropdown .selectBox-label {
+				line-height: 34px;
+			}
+			.signw {
+				padding: 40px 0 0 0;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					padding: 10px 0 0 0;
+				}
+				h6 {
+					position: relative;
+					margin: 0 0 30px 0;
+					span {
+						position: relative;
+						font-family: $Graphik-med;
+						padding: 0 10px;
+						display: inline-block;
+						background: #ffffff;
+						z-index: 100;
+					}
+					&::after {
+						content: "";
+						background: $grey2;
+						height: 1px;
+						width: 100%;
+						position: absolute;
+						top: 10px;
+						left: 0;
+					}
+				}
+				.btns {
+					margin: 0 10px;
+					width: 160px;
+					@media #{$media-newmax} {}
+					@media #{$media-small-desk} {}
+					@media #{$media-ipadland} {}
+					@media #{$media-ipadport} {
+						width: 130px;
+					}
+					@media #{$media-mid-phone} {}
+					@media #{$media-small-phone} {
+						width: 130px;
+						padding: 0 15px;
+					}
+					&.fbw {
+						background: #3b5998;
+						span {
+							background: url(../images/login3.png) scroll no-repeat left center;
+							display: block;
+						}
+					}
+					&.glw {
+						background: #ffffff;
+						border: 1px solid $grey2;
+						color: $dgrey;
+						box-shadow: 0px 2px 5px -2px #d0d0d0;
+						span {
+							background: url(../images/login4.png) scroll no-repeat left center;
+							display: block;
+						}
+					}
+				}
+				.bots {
+					padding: 50px 0 0 0;
+					@media #{$media-newmax} {}
+					@media #{$media-small-desk} {}
+					@media #{$media-ipadland} {}
+					@media #{$media-ipadport} {}
+					@media #{$media-mid-phone} {}
+					@media #{$media-small-phone} {
+						padding: 30px 0 0 0;
+					}
+					h5 {
+						display: inline-block;
+						vertical-align: middle;
+						font-size: 18px;
+						padding: 0 5px 0 0;
+						@media #{$media-newmax} {}
+						@media #{$media-small-desk} {}
+						@media #{$media-ipadland} {}
+						@media #{$media-ipadport} {}
+						@media #{$media-mid-phone} {}
+						@media #{$media-small-phone} {
+							font-size: 14px;
+						}
+					}
+					.btns {
+						background: #ffffff;
+						border: 1px solid $grey2;
+						color: $dgrey;
+						box-shadow: 0px 2px 5px -2px #d0d0d0;
+						display: inline-block;
+						vertical-align: middle;
+						padding: 0 30px;
+						width: auto;
+					}
+				}
+			}
+		}
+	}
+}

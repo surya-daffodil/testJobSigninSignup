@@ -1,0 +1,603 @@
+.sectionmp1 {
+	.loading {
+		display: inline-block;
+		padding: 10px;
+		background: #ffffff;
+		border-radius: 50%;
+		margin: 20px 0 0 0;
+	}
+	.topc {
+		background: #ffffff;
+		padding: 0 30px;
+		border: 1px solid $grey2;
+		margin: 0 0 30px 0;
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {}
+		@media #{$media-ipadland} {}
+		@media #{$media-ipadport} {}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {
+			padding: 0 10px;
+		}
+		ul.tabs {
+			li {
+				margin: 0 25px 0 0;
+				
+				position: relative;
+				float: left;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					margin: 0 10px 0 0;
+				}
+				a {
+					color: $dgrey;
+					padding: 11px 0 10px 0;
+					display: block;
+				}
+				&.active {
+					&::after {
+						content: "";
+						background: $dblue;
+						height: 2px;
+						width: 100%;
+						bottom: 0;
+						left: 0;
+						position: absolute;
+					}
+				}
+			}
+		}
+		.form-group {
+			margin: 5px 0 0 0;
+			float: right;
+			.selectBox-dropdown {
+				margin: 0;
+				border: 0px !important;
+				box-shadow: none;
+				height: 30px;
+				min-width: 80px;
+				.selectBox-label {
+					text-align: right;
+					display: block;
+					line-height: 30px;
+					margin: 0;
+					width: 100% !important;
+					box-sizing: border-box;
+				}
+				.selectBox-arrow {
+					right: auto;
+					left: 0;
+					top: 0px;
+					height: 30px;
+				}
+			}
+		}
+		h6 {
+			font-family: $Graphik-med;
+			font-size: 16px;
+			margin: 13px 0 0 0;
+		}
+		.search-wrap {
+			float: right;
+			margin: 5px 10px 5px 0;
+			.input {
+				position: relative;
+				width: 150px;
+				p {
+					position: absolute;
+					top: 6px;
+					left: 7px;
+					img {
+						width: 18px;
+					}
+				}
+				input {
+					width: 100%;
+					display: block;
+					padding: 0 10px 0 27px;
+					border: 1px solid #f0f2f2;
+					background: #f5f6f6;
+					height: 30px;
+					box-sizing: border-box;
+					border-radius: 4px;
+					border-radius: 20px;
+				}
+			}
+		}
+	}
+}
+.sectionmp2 {
+	margin: 0 0 20px 0;
+	.cimg {
+		position: relative;
+		> img {
+			width: 100%;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				height: 200px;
+				object-fit: cover;
+			}
+		}
+		.vbc {
+			background: #ffffff;
+			line-height: 33px;
+			display: block;
+			position: absolute;
+			right: 30px;
+			bottom: 30px;
+			padding: 0 15px;
+			color: $dblue;
+			font-family: $Graphik-med;
+			font-size: 14px;
+			border-radius: 3px;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				width: 34px;
+				height: 34px;
+				overflow: hidden;
+				padding: 0;
+				color: #ffffff;
+				right: 20px;
+			}
+			span {
+				background: url(../images/svg/viewbusinesscard.svg) scroll no-repeat left center;
+				padding: 2px 0 2px 30px;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					padding: 0;
+					background-position: center center;
+					text-indent: -9999px;
+					display: block;
+				}
+			}
+		}
+		.botbtns {
+			position: absolute;
+			left: 200px;
+			bottom: 30px;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				left: 10px;
+			}
+			.btnsm {
+				background: #22b996;
+				border-radius: 3px;
+				border: 0;
+				color: #ffffff;
+				font-family: $Graphik-med;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					font-size: 12px;
+					padding: 0 6px;
+				}
+				span {
+					background: url(../images/svg/becomefan-white.svg) scroll no-repeat left center;
+					padding: 3px 0 3px 25px;
+				}
+				&.btnsm1 {
+					color: $dblue;
+					background: #ffffff;
+					span {
+						background: url(../images/svg/addfriend-blue.svg) scroll no-repeat left center;
+						padding: 3px 0 3px 25px;
+					}
+				}
+			}
+		}
+	}
+	.botc {
+		background: #ffffff;
+		height: 75px;
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {}
+		@media #{$media-ipadland} {}
+		@media #{$media-ipadport} {}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {
+			height: 145px;
+		}
+		.topc {
+			.img {
+				position: relative;
+				display: inline-block;
+				vertical-align: bottom;
+				margin: -100px 20px 0 15px;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {
+					margin: -80px 20px 0 15px;
+				}
+				@media #{$media-ipadland} {
+					margin: -70px 20px 0 15px;
+				}
+				@media #{$media-ipadport} {
+					margin: -30px 10px 0 10px;
+				}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					margin: -20px 20px 0 15px;
+				}
+				> img {
+					width: 160px;
+					border: 3px solid #ffffff;
+					border-radius: 3px;
+					height: 160px;
+					box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+					@media #{$media-newmax} {}
+					@media #{$media-small-desk} {
+						width: 140px;
+						height: 140px;
+					}
+					@media #{$media-ipadland} {
+						width: 120px;
+						height: 120px;
+					}
+					@media #{$media-ipadport} {
+						width: 90px;
+						height: 90px;
+					}
+					@media #{$media-mid-phone} {}
+					@media #{$media-small-phone} {
+						width: 70px;
+						height: 70px;
+					}
+				}
+				.cicon {
+					position: absolute;
+					top: 20px;
+					right: 20px;
+					background: #ffffff;
+					border-radius: 50%;
+				}
+			}
+			.cont {
+				display: inline-block;
+				vertical-align: bottom;
+				h6 {
+					background: url(../images/svg/location-pin.svg) scroll no-repeat left center;
+					padding: 3px 0 3px 20px;
+					color: #3e4d58;
+					font-size: 15px;
+					@media #{$media-newmax} {}
+					@media #{$media-small-desk} {}
+					@media #{$media-ipadland} {}
+					@media #{$media-ipadport} {
+						font-size: 13px;
+					}
+					@media #{$media-mid-phone} {}
+					@media #{$media-small-phone} {
+						font-size: 13px;
+					}
+				}
+				h4 {
+					font-size: 18px;
+					font-family: $Graphik-med;
+				}
+			}
+		}
+		.rt {
+			padding: 0 20px 0 0;
+			float: right;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				float: none;
+				padding: 0;
+				position: relative;
+			}
+			ul {
+				display: inline-block;
+				vertical-align: middle;
+				float: left;
+				padding: 14px 30px 0 0;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					float: none;
+					text-align: center;
+					display: block;
+					padding: 25px 0 0 0;
+				}
+				li {
+					float: left;
+					padding: 0 10px;
+					min-width: 90px;
+					height: 50px;
+					border-left: 1px solid $grey2;
+					@media #{$media-newmax} {}
+					@media #{$media-small-desk} {}
+					@media #{$media-ipadland} {}
+					@media #{$media-ipadport} {
+						min-width: 80px;
+					}
+					@media #{$media-mid-phone} {}
+					@media #{$media-small-phone} {
+						float: none;
+						display: inline-block;
+						height: auto;
+						min-width: 1px;
+						width: 24%;
+						box-sizing: border-box;
+						border: 0;
+					}
+					h6 {
+						font-size: 14px;
+						@media #{$media-newmax} {}
+						@media #{$media-small-desk} {}
+						@media #{$media-ipadland} {}
+						@media #{$media-ipadport} {}
+						@media #{$media-mid-phone} {}
+						@media #{$media-small-phone} {
+							font-size: 12px;
+						}
+						b {
+							display: block;
+							margin: 10px 0 0 0;
+							font-family: $Graphik-med;
+							font-size: 16px;
+							@media #{$media-newmax} {}
+							@media #{$media-small-desk} {}
+							@media #{$media-ipadland} {}
+							@media #{$media-ipadport} {}
+							@media #{$media-mid-phone} {}
+							@media #{$media-small-phone} {
+								font-size: 14px;
+							}
+						}
+					}
+					&:hover {
+						h6 {
+							color: $dblue;
+						}
+					}
+				}
+			}
+			.iconw {
+				display: inline-block;
+				vertical-align: middle;
+				float: right;
+				position: relative;
+				margin: 14px 0 0 0;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					position: absolute;
+					top: -65px;
+					right: 15px;
+				}
+				.icon-more {
+					display: inline-block;
+					margin: 13px 0 0 0;
+				}
+				.contw {
+					position: absolute;
+					right: 0;
+					top: 40px;
+					border: 1px solid $grey2;
+					width: 130px;
+					border-radius: 3px;
+					box-sizing: border-box;
+					padding: 7px 10px;
+					box-shadow: 0px 2px 5px -2px #d0d0d0;
+					background: #ffffff;
+					display: none;
+					z-index: 10000;
+					&::after {
+						content: "";
+						background: url(../images/arrow6.png) scroll no-repeat 0 0;
+						width: 9px;
+						height: 5px;
+						position: absolute;
+						right: 10px;
+						top: -5px;
+					}
+					h6 {
+						padding: 4px 0;
+						a {
+							color: $dgrey;
+							font-size: 13px;
+							font-family: $Graphik-med;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.sectionmpf1 {
+	.carot {
+		.item {
+			width: calc((100% - 74px) / 3);
+			width: -webkit-calc((100% - 74px) / 3);
+			width: -moz-calc((100% - 74px) / 3);
+			width: -ms-calc((100% - 74px) / 3);
+			margin: 0 35px 30px 0;
+			box-sizing: border-box;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {}
+			@media #{$media-ipadland} {}
+			@media #{$media-ipadport} {}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {
+				float: none;
+				width: auto;
+				margin: 0 0 25px 0;
+			}
+			&:nth-child(4n) {
+				margin: 0 35px 30px 0;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {	margin: 0 35px 30px 0;}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					float: none;
+					width: auto;
+					margin: 0 0 25px 0;
+				}
+			}
+			&:nth-child(3n) {
+				margin: 0;
+				
+			
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {margin: 0;
+				}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					float: none;
+					width: auto;
+					margin: 0 0 25px 0;
+				}
+			}
+
+
+
+&:nth-child(2n) {
+				
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {	margin: 0 35px 30px 0;}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					
+				}
+			}
+
+
+&:nth-child(6n) {
+				
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {	margin: 0;}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					
+				}
+			}
+
+
+
+
+
+
+			.img {
+				padding: 5px;
+				.imgin {
+					display: inline-block;
+					vertical-align: top;
+					margin: 0 15px 0 0;
+					img {
+						width: 50px;
+						height: 50px;
+						object-fit: cover;
+						border-radius: 5px;
+					}
+				}
+				.cont {
+					display: inline-block;
+					vertical-align: top;
+					padding: 7px 0 0 0;
+					h6 {
+						background: url(../images/svg/location-pin.svg) scroll no-repeat left center;
+						padding: 3px 0 3px 20px;
+						color: #3e4d58;
+						font-size: 15px;
+						position: static;
+						width: auto;
+						height: auto;
+						font-family: $Graphik-regular;
+						@media #{$media-newmax} {}
+						@media #{$media-small-desk} {}
+						@media #{$media-ipadland} {}
+						@media #{$media-ipadport} {}
+						@media #{$media-mid-phone} {}
+						@media #{$media-small-phone} {
+							font-size: 13px;
+						}
+						span {
+							padding: 0;
+							background: none;
+						}
+					}
+					h4 {
+						font-size: 18px;
+						font-family: $Graphik-med;
+					}
+					.botbtns {
+						a {
+							padding: 0 10px;
+							font-size: 12px;
+						}
+					}
+				}
+			}
+			.cont {
+				ul {
+					li {
+						a {
+							color: $dgrey;
+							span {
+								font-family: $Graphik-med;
+								display: block;
+								margin: 8px 0 0 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.compose {
+	display: none;
+	@media #{$media-newmax} {}
+	@media #{$media-small-desk} {}
+	@media #{$media-ipadland} {}
+	@media #{$media-ipadport} {}
+	@media #{$media-mid-phone} {}
+	@media #{$media-small-phone} {
+		display: block;
+		position: fixed;
+		bottom: 60px;
+		right: 20px;
+		width: 70px;
+		z-index: 10000000000000;
+	}
+}

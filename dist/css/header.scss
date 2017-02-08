@@ -1,0 +1,551 @@
+/* ==========================================================================
+	$Header
+========================================================================== */
+
+header {
+	background: #ffffff;
+	height: 70px;
+	box-sizing: border-box;
+	padding: 15px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	border-bottom: solid #eee 1px;
+	@media #{$media-newmax} {}
+	@media #{$media-small-desk} {}
+	@media #{$media-ipadland} {}
+	@media #{$media-ipadport} {}
+	@media #{$media-mid-phone} {}
+	@media #{$media-small-phone} {
+		padding: 0;
+	}
+	.nav-wrap {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 20px 0 0;
+		.menubtn {
+			display: block;
+			width: 24px;
+			span {
+				height: 2px;
+				background: $dgrey;
+				margin: 0 0 5px 0;
+				display: block;
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+	}
+	#logo {
+		display: inline-block;
+		vertical-align: middle;
+		height: 32px;
+		width: 32px;
+		border-radius: 2px;
+		background: $dblue;
+		img {
+			margin: 0 auto;
+			padding: 8px 0 0 0;
+		}
+	}
+	.mt {
+		.search-wrap {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 11px 0 0;
+			.input {
+				position: relative;
+				width: 340px;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {
+					width: 200px;
+				}
+				@media #{$media-ipadland} {
+					width: 200px;
+				}
+				@media #{$media-ipadport} {
+					width: 150px;
+				}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {}
+				p {
+					position: absolute;
+    top: 8px;
+    left: 8px;
+				}
+				input {
+					width: 100%;
+					display: block;
+					padding: 0 10px 0 40px;
+					border: 1px solid #f0f2f2;
+					background: #f5f6f6;
+					height: 40px;
+					box-sizing: border-box;
+					border-radius: 4px;
+				}
+			}
+		}
+	}
+	.rt {
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {
+			padding: 0 30px 0 0;
+		}
+		@media #{$media-ipadland} {
+			padding: 0 30px 0 0;
+		}
+		@media #{$media-ipadport} {
+			padding: 0 30px 0 0;
+		}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {}
+		.rt1 {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 35px 0 0;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-ipadland} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-ipadport} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {}
+		}
+		.rt2 {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 25px 0 0;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-ipadland} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-ipadport} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {}
+			h6 {
+				position: relative;
+				span {
+					position: absolute;
+					width: 20px;
+					line-height: 20px;
+					border-radius: 50%;
+					border: 1px solid #ffffff;
+					background: $red;
+					top: -8px;
+					right: -9px;
+					em {
+						color: #ffffff;
+						font-style: normal;
+						font-family: $Graphik-sbld;
+						display: block;
+						text-align: center;
+						font-size: 12px;
+					}
+				}
+			}
+		}
+		.rt3 {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 30px 0 0;
+			@media #{$media-newmax} {}
+			@media #{$media-small-desk} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-ipadland} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-ipadport} {
+				margin: 0 15px 0 0;
+			}
+			@media #{$media-mid-phone} {}
+			@media #{$media-small-phone} {}
+			h6 {
+				position: relative;
+				span {
+					position: absolute;
+					width: 9px;
+					height: 9px;
+					border-radius: 50%;
+					border: 1px solid #ffffff;
+					background: $green;
+					top: 2px;
+					right: -1px;
+				}
+			}
+		}
+		.rt4 {
+			display: inline-block;
+			vertical-align: middle;
+			h6 {
+				display: inline-block;
+				vertical-align: middle;
+				position: relative;
+				span {
+					display: inline-block;
+					vertical-align: middle;
+				}
+				.icon {
+					position: absolute;
+					width: 20px;
+					height: 20px;
+					border-radius: 50%;
+					background: $grey1;
+					top: 5px;
+					right: -12px;
+					img {
+						margin: 0 auto;
+						
+					}
+				}
+			}
+			h5 {
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0 15px 0 0;
+				font-size: 15px;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {
+					font-size: 13px;
+				}
+				@media #{$media-ipadland} {
+					padding: 0 10px 0 0;
+					font-size: 13px;
+				}
+				@media #{$media-ipadport} {
+					padding: 0 10px 0 0;
+					font-size: 13px;
+					display: none;
+				}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {}
+			}
+		}
+	}
+}
+#nav {
+	ul {
+		li {
+			margin: 0 0 30px 0;
+			a {
+				display: block;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					text-align: left;
+				}
+				span {
+					display: inline-block;
+					vertical-align: middle;
+					color: $dgrey;
+					font-family: $Graphik-med;
+				}
+				em {
+					width: 40px;
+					display: inline-block;
+					vertical-align: middle;
+				}
+				img {
+					&.wh {
+						display: none;
+					}
+				}
+				&:hover {
+					span {
+						color: $dblue;
+					}
+					img {
+						&.woh {
+							display: none;
+						}
+						&.wh {
+							display: block;
+						}
+					}
+				}
+			}
+			&.active {
+				a {
+					span {
+						color: $dblue;
+					}
+					img {
+						&.woh {
+							display: none;
+						}
+						&.wh {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.navin {
+	position: fixed;
+	top: 70px;
+	left: 0;
+	height: calc(100vh - 70px);
+	background: #ffffff;
+	width: 270px;
+	box-sizing: border-box;
+	padding: 30px;
+	z-index: 10000;
+	@include transitionh;
+	@media #{$media-newmaxrs} {
+		left: -270px;
+	}
+	@media #{$media-newmax} {}
+	@media #{$media-small-desk} {}
+	@media #{$media-ipadland} {}
+	@media #{$media-ipadport} {}
+	@media #{$media-mid-phone} {}
+	@media #{$media-small-phone} {
+		left: auto;
+		right: -270px;
+	}
+	&.opened {
+		left: -270px;
+		@media #{$media-newmaxrs} {
+			left: 0px;
+		}
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {}
+		@media #{$media-ipadland} {}
+		@media #{$media-ipadport} {}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {
+			left: auto;
+			right: 0;
+		}
+	}
+	h6 {
+		margin: 30px 0 0 0;
+		padding: 20px 0;
+		border-top: 1px solid $lgrey;
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {}
+		@media #{$media-ipadland} {}
+		@media #{$media-ipadport} {}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {
+			text-align: left;
+		}
+		a {
+			display: block;
+			span {
+				display: inline-block;
+				vertical-align: middle;
+				color: $dgrey;
+				font-family: $Graphik-med;
+				font-size: 14px;
+			}
+			em {
+				width: 40px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			img {
+				&.wh {
+					display: none;
+				}
+			}
+			&:hover {
+				span {
+					color: $dblue;
+				}
+				img {
+					&.woh {
+						display: none;
+					}
+					&.wh {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+header {
+	.lt,
+	.mt,
+	.rt {
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {}
+		@media #{$media-ipadland} {}
+		@media #{$media-ipadport} {}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {
+			display: none;
+		}
+	}
+	.mobile-header {
+		display: none;
+		@media #{$media-newmax} {}
+		@media #{$media-small-desk} {}
+		@media #{$media-ipadland} {}
+		@media #{$media-ipadport} {}
+		@media #{$media-mid-phone} {}
+		@media #{$media-small-phone} {
+			display: block;
+			/** position: fixed; top: 0; left: 0; width: 100%;
+			background: #ffffff;
+			z-index: 10000; **/
+			height: 70px;
+		}
+		&::after {
+			content: "";
+			clear: both;
+			display: block;
+		}
+		.right-sidebar {
+			display: block;
+			left: -270px;
+			background: #ffffff;
+			border: 0;
+			position: fixed;
+			box-sizing: border-box;
+			-webkit-transition: all 0.2s ease-in;
+			-khtml-transition: all 0.2s ease-in;
+			-moz-transition: all 0.2s ease-in;
+			-ms-transition: all 0.2s ease-in;
+			-o-transition: all 0.2s ease-in;
+			transition: all 0.2s ease-in;
+			text-align: left;
+			&.opened {
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {}
+				@media #{$media-ipadland} {}
+				@media #{$media-ipadport} {}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {
+					left: 0;
+				}
+			}
+		}
+		.icn {
+			float: left;
+			width: 16.67%;
+			display: table;
+			height: 70px;
+			.icnin {
+				display: table-cell;
+				vertical-align: middle;
+			}
+			.icon {
+				img {
+					max-width: 24px;
+				}
+			}
+			&.icn4 {
+				h6 {
+					position: relative;
+					display: inline-block;
+					span {
+						position: absolute;
+						width: 20px;
+						line-height: 20px;
+						border-radius: 50%;
+						border: 1px solid #ffffff;
+						background: $red;
+						top: -14px;
+						right: -9px;
+						em {
+							color: #ffffff;
+							font-style: normal;
+							font-family: $Graphik-sbld;
+							display: block;
+							text-align: center;
+							font-size: 12px;
+						}
+					}
+				}
+			}
+			&.icn5 {
+				h6 {
+					position: relative;
+					display: inline-block;
+					span {
+						position: absolute;
+						width: 9px;
+						height: 9px;
+						border-radius: 50%;
+						border: 1px solid #ffffff;
+						background: $green;
+						top: -1px;
+						right: -2px;
+					}
+				}
+			}
+			&.icn6 {}
+			
+			&.icn3 {
+				
+				
+				form {
+					position: absolute;
+					top: 75px;
+					left: 0;
+					width: 100%;
+					background: #ffffff;
+					padding: 20px 30px;
+					box-sizing: border-box;
+					z-index: 100000;
+					display: none;
+					
+					.input {
+				position: relative;
+				width: 100%;
+				@media #{$media-newmax} {}
+				@media #{$media-small-desk} {
+					
+				}
+				@media #{$media-ipadland} {
+					
+				}
+				@media #{$media-ipadport} {
+					
+				}
+				@media #{$media-mid-phone} {}
+				@media #{$media-small-phone} {}
+				p {
+					position: absolute;
+    top: 8px;
+    left: 8px;
+				}
+				input {
+					width: 100%;
+					display: block;
+					padding: 0 10px 0 40px;
+					border: 1px solid #f0f2f2;
+					background: #f5f6f6;
+					height: 40px;
+					box-sizing: border-box;
+					border-radius: 4px;
+				}
+			}
+				}
+			}
+		}
+	}
+}
+
+
+header .mobile-header .icn1 .right-sidebar {display: none;}

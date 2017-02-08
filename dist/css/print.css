@@ -1,0 +1,29 @@
+@media print {
+	
+	
+	header .nav-wrap, header .mt, header .rt, .right-sidebar, .filter-wrap, .section1, .section2 {display: none;}
+	
+	body. body * {color: #000 !important; font-family: times;}
+	
+	header #logo {position: absolute; top: 20px; left: 50%; transform: translateX(-50%);}
+	
+	header .row > * {position: static;}
+	
+	footer .foot {display: none;}
+	
+	footer .foot4 {display: block;}
+	
+	footer .foot4 .pull-right {display: none;}
+	
+	
+	footer .row > * {position: static;}
+	
+	footer .foot4 h6 {position: absolute; bottom: 20px; left: 0; width: 100%; text-align: center;}
+	
+	header {position: relative;}
+	
+	.btns {display: none !important;}
+	
+	
+	
+}

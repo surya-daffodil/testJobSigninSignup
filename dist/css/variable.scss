@@ -1,0 +1,50 @@
+/* ----- */
+
+$dgrey: #3e4d58;
+$lgrey: #e6e7e9;
+$mgrey: #dddfe3;
+$dblue: #2372b9;
+$lblue: #e5f3ff;
+$red: #ee322e;
+$green: #22b996;
+$grey1: #9ea6ab;
+$grey2: #d8dade;
+
+/* ----- */
+
+$Graphik-regular: 'Graphik-Regular';
+$Graphik-med: 'Graphik-Medium';
+$Graphik-thn: 'Graphik-Thin';
+$Graphik-sbld: 'Graphik-Semibold';
+$Graphik-bld: 'Graphik-Bold';
+$Graphik-lgt: 'Graphik-Light';
+$Graphik-exlgt: 'Graphik-Extralight';
+
+/* ----- */
+
+
+$media-big-desk: "screen and (min-width: 1300px) and (max-width: 1400px)";
+
+
+
+$media-small-desk: "screen and (min-width: 1025px) and (max-width: 1199px)";
+$media-ipadland: "screen and (min-width: 992px) and (max-width: 1024px)";
+$media-ipadport: "screen and (min-width: 768px) and (max-width: 991px)";
+$media-mid-phone: "screen and (min-width: 641px) and (max-width: 767px)";
+$media-small-phone: "screen and (min-width: 0px) and (max-width: 767px)";
+$media-newmax: "screen and (min-width: 1025px)";
+
+$media-newmaxrs: "screen and (max-width: 1650px)";
+
+
+
+/* ----- */
+
+@mixin transitionh {
+	-webkit-transition: all 0.2s ease-in;
+	-khtml-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
