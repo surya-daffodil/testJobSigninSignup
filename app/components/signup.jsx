@@ -133,7 +133,7 @@ class Signup extends React.Component {
 											</div>
 											<div className="form-group">
 												<label>Birth Date</label>
-												<input className="form-control" onChange={this.setValue.bind(this, 'birthDate')}/>
+												<input className="form-control date-picker" onChange={this.setValue.bind(this, 'birthDate')}/>
 												<span className="clear"></span>
 											</div>
 											<div className="form-group">
