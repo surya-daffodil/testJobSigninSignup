@@ -126,10 +126,10 @@ class Signup extends React.Component {
 												<input type="text" placeholder="City" className="form-control" onChange={this.setValue.bind(this, 'city')} />
 											</div>
 											<div className="form-group">
-												<input type="text" placeholder="Password" className="form-control" onChange={this.setValue.bind(this, 'password')} />
+												<input type="password" placeholder="Password" className="form-control" onChange={this.setValue.bind(this, 'password')} />
 											</div>
 											<div className="form-group">
-												<input type="text" placeholder="Confirm Password" className="form-control" onChange={this.setValue.bind(this, 'confirmPassword')} />
+												<input type="password" placeholder="Confirm Password" className="form-control" onChange={this.setValue.bind(this, 'confirmPassword')} />
 											</div>
 											<div className="form-group">
 												<label>Birth Date</label>
